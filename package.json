@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"npx nodemon src/index.js"
+    "start": "npx nodemon src/index.js"
   },
   "author": "ShivaBansfore-JGEC",
   "license": "ISC",
   "dependencies": {
+    "amqplib": "^0.10.3",
+    "axios": "^1.5.0",
     "body-parser": "^1.20.2",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
